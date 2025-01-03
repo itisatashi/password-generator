@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Karla:wght@800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div id="password-generator_app">
+            <h1>
+                Generate a <br />
+                <span>random password</span>
+            </h1>
+            <p id="warning">Never use an insecure password again.</p>
+
+            <p id="password-length-pr">1. Choose a password length:</p>
+            <div id="password-length-range">
+                <span id="eight-el">8</span>
+                <span id="twelve-el">12</span>
+                <span id="sixteen-el">16</span>
+            </div>
+            <p id="password-type-pr">
+                2. Choose only numbers or symbols (optional)
+            </p>
+            <div id="password-length-range">
+                <span id="numbers-el">NUMBERS</span>
+                <span id="symbols-el">SYMBOLS</span>
+            </div>
+
+            <button id="generator-btn">Generate passwords</button>
+            <div id="passwords">
+                <div>
+                    <p id="password-one"></p>
+                    <span id="passowrd-one_copy">COPY</span>
+                </div>
+                <div>
+                    <p id="password-two"></p>
+                    <span id="passowrd-two_copy">COPY</span>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

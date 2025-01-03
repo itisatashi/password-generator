@@ -1,0 +1,121 @@
+body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #111827;
+}
+
+#password-generator_app {
+    background-color: #1f2937;
+    border-radius: 8px;
+    margin-top: 50px;
+    max-width: 550px;
+    padding: 50px 45px;
+    width: 100%;
+    margin: 50px auto 0;
+}
+
+h1 {
+    color: #fff;
+    font-family: "Karla", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+h1 span {
+    color: #4adf86;
+}
+
+#warning {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#password-length-pr {
+    font-size: 18px;
+    color: #fff;
+}
+
+#password-length-range {
+    justify-content: space-between;
+}
+
+#password-length-range span {
+    font-size: 18px;
+    background-color: #f9fafb;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+    color: #10b981;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#password-length-range span:hover {
+    background-color: #e5e7eb;
+    border: 2px solid #10b981;
+}
+
+#password-type-pr {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+#generator-btn {
+    background-color: #10b981;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 60px;
+    outline: none;
+    padding: 10px 20px;
+}
+
+#generator-btn:hover {
+    background-color: #059669;
+}
+
+#passwords {
+    align-items: center;
+    border-top: 2px solid #2f3e53;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#passwords p {
+    background-color: #273549;
+    border-radius: 8px;
+    color: #55f991;
+    font-weight: 500;
+    height: 30px;
+    margin-top: 35px;
+    padding: 10px 30px 2px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+#passwords span {
+    display: block;
+    text-align: center;
+    background-color: #be123c;
+    width: 100px;
+    margin: 0 auto 0;
+    padding: 5px 0;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+
+#passwords span:hover {
+    background-color: #f43f5e;
+}
