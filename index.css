@@ -2,7 +2,7 @@ body {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 20px 0;
-    background-color: #111827;
+    background-color: red;
 }
 
 #password-generator_app {
